@@ -7,7 +7,7 @@ echo $NOW' Start '$0
 # a jelszo ezentul itt talalhato:
 . /etc/innowair-backup-cfg.sh
 
-DB_NAMES="IMLBase_Exicom IMLDBSchema InnoWair_Exicom exicom ExicomKonvert"
+DB_NAMES="IMLBase_Exicom IMLDBSchema InnoWair_Exicom exicom ExicomKonvert DataTransfer"
 INNOWAIR_ROOT='/var/www/html'
 INNOWAIR_DIR1=$INNOWAIR_ROOT/amfphp
 INNOWAIR_DIR2=$INNOWAIR_ROOT/download
